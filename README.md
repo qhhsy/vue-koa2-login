@@ -30,7 +30,7 @@ proxyTable: {
 
 ## 运行项目
 前提条件：mongodb服务是挂起来的
-```
+```javascript
 //第一步
 cd vue-koa2-login
 //第二步
@@ -43,13 +43,13 @@ node server.js
 
 ## 关键代码一：
 所有需要登录的路由在配置路由时都需加上：
-```
+```javascript
 meta: {
             requireAuth: true // 添加该字段，表示进入这个路由是需要登录的
         }
 ```
 
-```
+```javascript
 //注册全局钩子用来拦截导航
 router.beforeEach((to, from, next) => {
   //获取store里面的token
@@ -72,7 +72,7 @@ router.beforeEach((to, from, next) => {
 
 ## 关键代码二
 拦截器可以做到统一处理所有利用axios发送的请求
-```
+```javascript
 //request拦截器
 instance.interceptors.request.use(
     config => {
