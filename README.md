@@ -120,7 +120,8 @@ store,localStorage,sessionStorage三者皆可，看需求
 [vue-login](https://github.com/ykloveyxk/vue-login)</br>
 我是结合看这上面两个项目。
 
-代码有什么问题，可以提issue或者加我QQ525136628联系我
+代码有什么问题，可以提issue或者加我QQ525136628联系我</br>
+我的github地址:https://github.com/sinner77
 
 
 
