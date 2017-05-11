@@ -17,7 +17,7 @@
 用户输入网站进入localhost:8000/,由于没有登录直接跳转到/login页面，登录完成后自动跳转到主页并能进行其他操作。（没有登录没办法完成这些操作）
 
 ## 运行环境：
-由于用的是koa2,所以请在官网下载最新版本,我用的是**7.8.0**版本。建议下载个nvm，它是window下管理node版本的工具，非常好用，只需几个命令就能随时切换node版本
+由于用的是koa2,所以请在官网下载最新版本,我用的是**7.8.0**版本。建议下载个nvm，它是window下管理node版本的工具，非常好用，只需几个命令就能随时切换node版本</br>
 项目目录是用vue-cli搭建。然后自己在里面新建了server.js和server文件夹来写后端代码。不能少一步就是在config/index.js配置代理
 ```javascript
 proxyTable: {
@@ -109,14 +109,14 @@ instance.interceptors.response.use(
 store,localStorage,sessionStorage三者皆可，看需求
 
 ## 分享阅读的资料及源码：
-资料:
-[学习koa2](https://github.com/chenshenhai/koa2-note)
-[学习JSON Web Token](http://www.cocoachina.com/webapp/20151020/13824.html)
-[学习JSON Web Token](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)
+资料:</br>
+[学习koa2](https://github.com/chenshenhai/koa2-note)</br>
+[学习JSON Web Token](http://www.cocoachina.com/webapp/20151020/13824.html)</br>
+[学习JSON Web Token](http://blog.leapoahead.com/2015/09/06/understanding-jwt/)</br>
 [学习JSON Web Token](http://www.tuicool.com/articles/uuAzAbU)
 
 源码：
-[一个项目学会前端实现登录拦截](https://github.com/superman66/vue-axios-github)
+[一个项目学会前端实现登录拦截](https://github.com/superman66/vue-axios-github)</br>
 [vue-login](https://github.com/ykloveyxk/vue-login)
 我是结合看这上面两个项目。
 
